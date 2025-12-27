@@ -33,6 +33,7 @@ Operator mencatat:
 - Lokasi
 - Produk BBM
 - Volume konsumsi
+
 📌 Contoh:
 
 ```yaml
@@ -48,6 +49,7 @@ Volume   : 520 liter
 Backend otomatis menghitung **baseline konsumsi normal** berdasarkan data historis:
 - Rata-rata konsumsi sebelumnya
 - Pola konsumsi lokasi & produk yang sama
+
 📌 Contoh:
 
 ```scss
@@ -138,11 +140,11 @@ Lengkap dengan:
 ---
 
 ### ✅ **Keunggulan Sistem**
-✔ Async & scalable
-✔ Role-based access
-✔ Deteksi otomatis
-✔ Monitoring real-time
-✔ Siap dikembangkan lebih ke ML / AI
+- Async & scalable
+- Role-based access
+- Deteksi otomatis
+- Monitoring real-time
+- Siap dikembangkan lebih ke ML / AI
 
 ---
 
