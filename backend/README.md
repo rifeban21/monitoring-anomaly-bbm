@@ -117,7 +117,7 @@ ACCESS_TOKEN_EXPIRE_MINUTES=60
 
 ---
 
-###6️⃣ **Migrasi Database (Alembic)**
+### 6️⃣ **Migrasi Database (Alembic)**
 ▶ **Generate Migration (jika belum ada)**
 
 ```bash
@@ -139,7 +139,7 @@ Jika berhasil, tabel berikut akan dibuat:
 
 ---
 
-###7️⃣ **Menambahkan User Admin Awal**
+### 7️⃣ **Menambahkan User Admin Awal**
 **Backend menyediakan script untuk membuat akun admin awal.**
 
 📄 Lokasi file:
@@ -162,7 +162,7 @@ python -m app.services.create_admin
 
 ---
 
-###8️⃣ **Menjalankan Backend Server**
+### 8️⃣ **Menjalankan Backend Server**
 
 ```bash
 uvicorn app.main:app --reload
@@ -176,7 +176,7 @@ Uvicorn running on http://127.0.0.1:8000
 
 ---
 
-###9️⃣ **Akses API Documentation (Swagger)**
+### 9️⃣ **Akses API Documentation (Swagger)**
 Buka browser:
 
 ```arduino
@@ -192,7 +192,7 @@ Swagger UI menyediakan:
 
 ---
 
-###🔐 **Cara Login & Authorize JWT di Swagger**
+### 🔐 **Cara Login & Authorize JWT di Swagger**
 **Klik tombol Authorize 🔒**
 
 Isi:
@@ -201,7 +201,7 @@ Isi:
 
 ---
 
-###👥 **Role & Hak Akses**
+### 👥 **Role & Hak Akses**
 | Role      | Akses                        |
 | --------- | ---------------------------- |
 | Admin     | CRUD user, master data       |
@@ -210,7 +210,8 @@ Isi:
 
 ---
 
-###📄 **License**
+### 📄 **License**
+
 MIT License
 
 ---
