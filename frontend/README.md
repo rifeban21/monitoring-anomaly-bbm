@@ -86,6 +86,7 @@ yarn install
 ### 🎨 **Tailwind CSS (Latest)**
 
 Project ini menggunakan Tailwind CSS versi terbaru
+
 ⚠️ TIDAK menggunakan **tailwind.config.js**
 
 Tailwind sudah diaktifkan langsung melalui:
